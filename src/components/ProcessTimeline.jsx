@@ -183,7 +183,7 @@ export default function ProcessTimeline() {
                   {/* Centered Node Dot Indicator */}
                   <div 
                     id={`timeline-dot-${step.id}`}
-                    className="absolute left-[11px] md:left-1/2 -translate-x-1/2 w-3.5 h-3.5 border-2 border-brand-charcoal/30 bg-brand-cream rounded-full transition-all duration-300 z-20"
+                    className="absolute left-[10px] md:left-1/2 md:ml-[-7px] w-3.5 h-3.5 border-2 border-brand-charcoal/30 bg-brand-cream rounded-full transition-all duration-300 z-20"
                   />
 
                   {/* Right Side (Desktop: Content or Empty) */}
