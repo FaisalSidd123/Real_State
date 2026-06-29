@@ -98,7 +98,7 @@ export default function Testimonials() {
                 className="flex flex-col gap-2 p-6 hairline-border border-brand-charcoal/15 bg-brand-cream w-80 md:w-96 shrink-0 relative"
               >
                 <Quote className="absolute top-4 right-4 w-4 h-4 text-brand-accent/20" />
-                <p className="text-sm font-light text-brand-charcoal/80 leading-relaxed italic pr-4">
+                <p className="text-sm font-light text-brand-charcoal/80 leading-relaxed italic pr-4 whitespace-normal">
                   "{snip.quote}"
                 </p>
                 <div className="flex gap-2 items-center text-[10px] font-mono tracking-wider text-brand-charcoal/40 uppercase mt-2 border-t border-brand-charcoal/10 pt-2">
@@ -118,7 +118,7 @@ export default function Testimonials() {
                 className="flex flex-col gap-2 p-6 hairline-border border-brand-charcoal/15 bg-brand-cream w-80 md:w-96 shrink-0 relative"
               >
                 <Quote className="absolute top-4 right-4 w-4 h-4 text-brand-accent/20" />
-                <p className="text-sm font-light text-brand-charcoal/80 leading-relaxed italic pr-4">
+                <p className="text-sm font-light text-brand-charcoal/80 leading-relaxed italic pr-4 whitespace-normal">
                   "{snip.quote}"
                 </p>
                 <div className="flex gap-2 items-center text-[10px] font-mono tracking-wider text-brand-charcoal/40 uppercase mt-2 border-t border-brand-charcoal/10 pt-2">
